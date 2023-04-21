@@ -1,0 +1,31 @@
+.hpage {
+    margin-top: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.hpage .ligne {
+    margin-top: 20px;
+    width: 100%;
+    height: 2px;
+    background-color: #adb5bd;
+    margin-bottom: 20px;
+}
+.hpage .notif {
+    padding: 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.hpage .dropped {
+    font-size: 18px;
+    font-weight: 600;
+}
+.hpage .content {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #677294;
+}
+.hpage .time {
+    font-size: 14px;
+    font-weight: 500;
+    color: #677294;
+}

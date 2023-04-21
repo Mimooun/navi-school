@@ -1,0 +1,51 @@
+/* .maxwidth {
+  padding: 0px 120px;
+} */
+.profile {
+  padding: 10px 10px;
+  box-shadow: #0000003d 0px 3px 8px;
+  width: 100%;
+  border-radius: 10px;
+} 
+.subcontent {
+  width: 100%;
+  background-color: #f7b523;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.title {
+  font-size: 18px;
+}
+.father {
+  margin-bottom: 30px;
+}
+.image{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+.edite {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-top: 15px;
+}
+.cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7b523;
+  font-size: 20px;
+  font-weight: 600;
+}
+.edite .editsub {
+  display: grid;
+  grid-template-columns: 0fr auto;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.edite svg {
+  color: #f7b523;
+  font-size: 22px;
+}

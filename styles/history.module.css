@@ -1,0 +1,9 @@
+.calendarWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+.calendar {
+    width: 100%;
+    max-width: 800px;
+  }

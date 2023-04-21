@@ -1,0 +1,47 @@
+.top {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: #f7b523;
+    height: 50px;
+    padding: 5px;
+}
+.top svg {
+    font-size: 25px;
+}
+.center {
+    margin-top: 50px;
+}
+.number {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.text {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.bottom {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.Textfield {
+    width: 90%;
+    
+}
+.button {
+    width: 90%;
+    background-color: #f7b523;
+}
+.opt {
+    font-size: 18px;
+    font-weight: 600;
+    color: #f7b523;
+}

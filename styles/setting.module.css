@@ -1,0 +1,67 @@
+.setting {
+    padding: 10px 10px;
+}
+.subtitle {
+    color: #f7b523;
+    font-size: 18px;
+    font-weight: 600;
+}
+.setting .pik {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+}
+.setting svg {
+    color: #f7b523;
+    font-size: 22px;
+}
+.pik .title {
+    font-size: 16px;
+    font-weight: 500;
+}
+.pik .km {
+    margin-bottom: 20px;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #677294;
+    font-weight: 400;
+}
+.checked {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 0.2fr auto;
+    gap: 25px;
+}
+.checked .checkbox {
+    margin-top: -8px;
+}
+.checked label {
+    font-size: 16px;
+    font-weight: 600;
+}
+.checked .content {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #677294;
+    font-weight: 400;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #f7b523;
+    color: white;
+    border-radius: 30px;
+}
+.Button:hover {
+   
+    background-color: white;
+    color: #f7b523;
+    font-size: 16px;
+    
+}

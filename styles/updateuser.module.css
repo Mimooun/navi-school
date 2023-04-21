@@ -1,0 +1,44 @@
+.updateuser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.infouser {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 15px;
+}
+.wrp {
+  display: flex;
+  flex-direction: column;
+}
+.infouser svg {
+  font-size: 21px;
+  color: #f7b523;
+}
+.wrp .title {
+  color: #677294;
+  font-size: 16px;
+}
+.Button {
+  width: 100%;
+  background-color: #f7b523;
+  color: white;
+  border-radius: 30px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.AiFillCamera {
+  font-size: 25px;
+  margin-left: 90px;
+  margin-bottom: -120px;
+  z-index: 99999;
+  position: relative;
+  display: flex;
+}

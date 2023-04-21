@@ -1,0 +1,18 @@
+.businfo{
+    margin-top: 40px;
+    padding: 5px 0px;
+}
+.businfo_wrp {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 0.6fr 1.5fr auto
+}
+.businfo svg {
+    font-size: 22px;
+    color: #f7b523;
+}
+.businfo .name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #677294;
+}

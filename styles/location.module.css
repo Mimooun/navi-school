@@ -1,0 +1,53 @@
+.edite {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7b523;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.loc {
+  position: relative;
+}
+.input {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+  position: absolute;
+}
+.inp {
+  padding: 10px;
+  height: 30px;
+  width: 25vh;
+  border-radius: 50px;
+  border: none;
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+    position: absolute;
+}
+.button {
+    background-color: #f7b523;
+    color: white;
+    padding: 6px 25px;
+    border-radius: 8px;
+}
+.button:hover {
+    background-color: #866c35;
+    color: white;
+    padding: 6px 25px;
+    border-radius: 8px;
+}
+.myCssClass {
+  padding: 0px;
+}
+.mycustomtabs .MuiTabs-indicator {
+    background-color: red;
+  }
