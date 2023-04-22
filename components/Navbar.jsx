@@ -40,7 +40,7 @@ function Navbar(props) {
               />
             </div>
             <div className={styles.name}>Name user</div>
-            <div className={styles.num}>Name user</div>
+            <div className={styles.num}> user</div>
             <div className={styles.cards}>
               <div className={styles.card}>
                 <div className={styles.card_left}>
