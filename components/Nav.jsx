@@ -14,7 +14,7 @@ function Nav() {
         width={500}
         height={300}
       />
-      <p className={styles.title}><span className={styles.span}> Navi</span> School</p>
+      <p className={styles.title}><span className={styles.span}> Navi</span> </p>
     </div>
   );
 }
